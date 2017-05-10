@@ -1,0 +1,32 @@
+{
+  "name": "social-app",
+  "version": "0.0.0",
+  "description": "Social Hangout app",
+  "main": "index.html",
+  "scripts": {
+    "build:dev": "webpack",
+    "build": "webpack -p --env.prod",
+    "dev": "webpack-dev-server --env.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorcata/social-hangout.git"
+  },
+  "author": "Victor Catalina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorcata/social-hangout/issues"
+  },
+  "homepage": "https://github.com/victorcata/social-hangout#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
